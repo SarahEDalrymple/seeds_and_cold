@@ -173,6 +173,17 @@ if(no_occ > 30000) {print(paste("return limit exceeded", i))
   
   write.table(combinePointValue,file="all_species_dataextraction.csv", 
               append=TRUE, sep= ",", row.names = i, col.names=FALSE)
+  #########################################################################################
+  
+  # 6. retrieve citation
+  
+  #my_search <- occ_search(taxonKey=paste(combinePointValue$key))
+  #citation <- gbif_citation(my_search)
+  
+  citation <- gbif_citation(x=combinePointValue$key)
+  write.table(citation$citation,file="citation.csv", 
+              append=TRUE, sep= ",", row.names = i, col.names=FALSE)
+
   
   #########################################################################################
   }
