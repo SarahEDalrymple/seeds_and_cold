@@ -6,5 +6,5 @@ We hope that our dataset will be valuable in predicting the impact of the loss o
 
   *Global distribution of locations at which species attain the coldest temperatures in their respective ranges. Blue circles denote endospermic species occurrences, red crosses denote non-endospermic species occurrences.*
 
-For full explanation of data and intended uses, please see the following citation:
+>For full explanation of data and intended uses, please see the following citation:
 Jaganathan & Dalrymple 2019. Internal Seed Structure of Alpine Plants and Extreme Cold Exposure. Data, 4(3), 107; https://doi.org/10.3390/data4030107
