@@ -1,6 +1,6 @@
 The code in this repository was used to produce a dataset of 840 plant taxa reported as occurring in alpine systems.  We extracted climate data for the full range of every species, identified the coldest temperature within its range and extracted the location co-ordinates at which this temperature was reported.  Our full dataset also includes information on seed morphology (presence or absence of an endosperm) and seed mass.
 
-We hope that our dataset will be valuable in predicting the impact of the loss of snow cover on plants in alpine areas.
+We hope that our dataset will be valuable in predicting the impact of the loss of snow cover on plants in alpine areas.  Please use the 'view on github' link above to access the R script.
 
 ![](seeds_and_cold_map_crop.png)
 
